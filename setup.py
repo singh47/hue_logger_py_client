@@ -7,7 +7,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name="hue_logger",
-    version="0.1.1",
+    version="0.1.2",
     author="Harman Singh",
     author_email="harman@petdrifts.com",
     description="A simple client for sending logs to the Hue Logs server.",
