@@ -8,7 +8,7 @@ setup(
     description="A simple client for sending logs to the Hue Logs server.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/singh247/hue_logger_py_client",
+    url="https://github.com/singh47/hue_logger_py_client",
     packages=find_packages(),
     install_requires=[
         "requests>=2.0.0"
