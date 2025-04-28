@@ -13,7 +13,8 @@ Replace localhost with your server url
 
 ```bash
 from hue_logger import HueLogger
-
-logger = HueLogger("http://localhost:5000")
-logger.log("This is a test log")
+# Initialize the logger - replace localhost with your url
+logger = HueLogger(server_url="http://localhost:5000", api_key="your-api-key", service_name="your service")
+# Send a log
+logger.log("Test log from Python client")
 ```
